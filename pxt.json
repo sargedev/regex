@@ -2,7 +2,8 @@
     "name": "RegEx",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Strings": "github:sargedev/strings#86376e0e762ae5fbb3911ebfbea2cc74ca52655e"
     },
     "files": [
         "main.ts",
