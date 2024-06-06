@@ -10,5 +10,13 @@ namespace regex {
             this.start = start;
             this.end = end;
         }
+
+        get span(): number[] {
+            return [this.start, this.end];
+        }
+
+        toString(): string {
+            return `Match(${this.text}, <${this.start}, ${this.end}>)`;
+        }
     }
 }
