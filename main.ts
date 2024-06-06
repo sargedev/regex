@@ -17,6 +17,7 @@ namespace regex {
     const TT_QUESTION = "QUESTION";
     const TT_PLUS = "PLUS";
     const TT_COMMA = "COMMA";
+    const TT_CHAR = "CHAR";
 
     class Token {
         type: string;
@@ -91,6 +92,7 @@ namespace regex {
                     case "?": tokens.push(new Token(TT_QUESTION));
                     case "+": tokens.push(new Token(TT_PLUS));
                     case ",": tokens.push(new Token(TT_COMMA));
+                    default: tokens.push(new Token(TT_CHAR, this.char));
                 }
             }
             return tokens;
