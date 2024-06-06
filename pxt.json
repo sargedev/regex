@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "Strings": "github:sargedev/strings#86376e0e762ae5fbb3911ebfbea2cc74ca52655e"
+        "Strings": "github:sargedev/strings#86376e0e762ae5fbb3911ebfbea2cc74ca52655e",
+        "Stringify": "github:sargedev/stringify#fa05269e440fcd3b4dd21bfe2c5f9de4cd755c69"
     },
     "files": [
         "main.ts",
